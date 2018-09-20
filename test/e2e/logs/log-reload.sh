@@ -15,7 +15,7 @@ $pm2 reloadLogs
 
 sleep 1
 
-grep "Reloading log..." out-rel.log
+grep "Reloading log..." ~/.pm2/pm2.log
 
 spec "Should have started the reloading action"
 
